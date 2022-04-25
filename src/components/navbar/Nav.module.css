@@ -1,0 +1,23 @@
+.nav_block{
+    /* display: flex; */
+    /* margin-right: 460px; */
+}
+
+.link{
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.button{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 15px;
+    color: white;
+    margin-left: 380px;
+}
+
+.container{
+    margin-top: 30px;
+    display: flex;
+}
