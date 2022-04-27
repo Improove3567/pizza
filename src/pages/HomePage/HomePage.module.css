@@ -1,0 +1,30 @@
+.wrapper {
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 15px;
+    margin-top: 20px;
+
+}
+
+.wrapper>img {}
+
+.main_text {
+    margin-right: 790px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.order_block{
+    margin-top: 15px;
+}
+
+.pizza_block{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_slider_text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 800px;
+}

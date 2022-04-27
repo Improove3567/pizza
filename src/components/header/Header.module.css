@@ -1,6 +1,40 @@
 .logo{
-    width: 80px;
-    height: 80px;
+    width: 65px;
+    height: 65px;
+}
+
+.block{
+    display: flex;
+}
+
+.logo_text{
+    margin-left: 10px;
+}
+.delivery{
+    margin-left: 35px;
+}
+
+.buttons{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.coins{
+    font-weight: 500;
+}
+
+.login_btn{
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    color: rgb(37, 37, 37);
+    margin-left: 20px;
+}
+
+
+/* .logo{
+    width: 60px;
+    height: 60px;
 }
 
 .block{
@@ -29,4 +63,4 @@
 }
 .logo_text{
     font-size: 29px;
-}
+} */

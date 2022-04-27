@@ -7,8 +7,7 @@ function InfoCard() {
         <div className="container">
                 <img src="https://cdn.inappstory.com/story/av3/mcy/ldc/gj3kchf9kohi2by6ydlpbby/custom_cover/logo-350x440.jpg?v=1645002408"
                     alt="failed"
-                    width='220px'
-                    height="320px"
+                    className={css.img}
                 ></img>
         </div >
     )

@@ -1,0 +1,36 @@
+.pizza_block {
+    width: 240px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+
+.pizza_img {
+    width: 230px;
+    height: 230px;
+}
+
+.title{
+    font-weight: 500;
+    margin-right: 80px;
+}
+
+.info{
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 70px;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.footer_btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 115, 0);
+    margin-left: 10px;
+}

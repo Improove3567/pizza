@@ -1,0 +1,23 @@
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.banner_block{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.main_slider_text{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.description_text{
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(88, 88, 88);
+}
+

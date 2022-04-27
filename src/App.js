@@ -9,7 +9,6 @@ function App() {
     <BrowserRouter>
       <div className='App'>
         <Header />
-        <Order />
 
         <Routes>
           <Route path="/" element={<HomePage />}/>
