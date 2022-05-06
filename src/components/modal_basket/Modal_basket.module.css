@@ -1,0 +1,40 @@
+.modal{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 999;
+}
+
+.modal_content{
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(243, 243, 243);
+    height: 100%;
+    width: 400px;
+    margin-left: 920px;
+    
+}
+
+.main_text{
+    font-weight: 500;
+}
+
+.description{
+    font-weight: 400;
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 20px;
+    color: white;
+    border: 0;
+}
+
+.container{
+    margin-top: 50px;
+}

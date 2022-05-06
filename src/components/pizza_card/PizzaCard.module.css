@@ -33,4 +33,6 @@
     border-radius: 20px;
     background-color: rgb(255, 115, 0);
     margin-left: 10px;
+    border:0;
+    color: white;
 }
