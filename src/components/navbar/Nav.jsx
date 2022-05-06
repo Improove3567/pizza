@@ -2,8 +2,8 @@ import css from './Nav.module.css'
 import Modal_basket from '../../components/modal_basket/Modal_basket'
 import { useState } from "react";
 
-function Nav() {
-    const [active, setActive] = useState(false)
+function Nav({active, setActive}) {
+    
     return (
         <div className={css.container}>
             <div className={css.nav_block}>
@@ -21,9 +21,7 @@ function Nav() {
             <div className="btn">
                 <button className={css.button} onClick={() => setActive(true)}>Корзина</button>
             </div>
-            {
-                active ? <Modal_basket modal={active} setModal={setActive} /> : ''
-            }
+            
         </div >
     );
 }

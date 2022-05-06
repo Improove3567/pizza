@@ -10,14 +10,13 @@ import Modal_basket from '../../components/modal_basket/Modal_basket'
 import { useState } from "react";
 
 function HomePage(props) {
-
-
+  
   return (
     <div className="container">
       <div className={css.wrapper}>
-     
+
         <SliderInfo />
-        
+
       </div>
       <div className={css.order_block}>
         <span className={css.main_slider_text}>Часто заказывают</span>
@@ -28,8 +27,9 @@ function HomePage(props) {
       </div>
       <h1 className={css.main_text}>Пицца</h1>
       <div className={css.pizza_block}>
-        <Main pizzas={props.pizzas}/>
-        
+        <Main pizzas={props.pizzas} />
+
+
       </div>
       
     </div >

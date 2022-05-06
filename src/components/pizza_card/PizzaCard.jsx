@@ -13,7 +13,7 @@ const PizzaCard = ({title, price, description, image, ...props}) => {
                 </div>
                 <div className={css.footer}>
                     <span className={css.footer_text}> от {price} сом</span>
-                    <button className={css.footer_btn}>Выбрать</button>
+                    <button className={css.footer_btn}>Добавить в корзину</button>
                 </div>
             </div>
 

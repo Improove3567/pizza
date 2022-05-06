@@ -4,35 +4,40 @@ import { useEffect, useState } from "react";
 import './App.css';
 import HomePage from './pages/HomePage/HomePage';
 import Nav from './components/navbar/Nav';
+import Modal_basket from './components/modal_basket/Modal_basket';
 
-const baseUrl='https://62697c31f2c0cdabac0f400a.mockapi.io/'
+const baseUrl = 'https://62697c31f2c0cdabac0f400a.mockapi.io/'
 function App() {
 
   const [pizzas, setPizza] = useState([]);
-  
+  const [active, setActive] = useState(false)
+  const [basketCard, setBasketCard] = useState([])
 
 
   useEffect(() => {
-      fetch(baseUrl + 'pizza')
-          .then((response) => {
-              return response.json()
-          })
-          .then((data) => {
-              setPizza(data)
+    fetch(baseUrl + 'pizza')
+      .then((response) => {
+        return response.json()
+      })
+      .then((data) => {
+        setPizza(data)
 
-          })
+      })
   }, [])
 
   return (
     <BrowserRouter>
       <div className='App'>
+
         <Header />
-          <Nav />
+        <Nav active={active} setActive={setActive} />
         <Routes>
-          <Route path="/" element={<HomePage pizzas={pizzas}/>} />
+          <Route path="/" element={<HomePage pizzas={pizzas} />} />
         </Routes>
 
-
+        {
+          active ? <Modal_basket modal={active} setModal={setActive} /> : ''
+        }
       </div>
     </BrowserRouter>
   );
