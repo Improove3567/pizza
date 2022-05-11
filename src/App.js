@@ -12,7 +12,10 @@ function App() {
   const [pizzas, setPizza] = useState([]);
   const [active, setActive] = useState(false)
   const [basketCard, setBasketCard] = useState([])
-
+  const [card, setCard] = useState([])
+  const handleSend = (pizza) =>{
+      setCard([...card, pizza], console.log(card))
+  }
 
   useEffect(() => {
     fetch(baseUrl + 'pizza')
@@ -29,14 +32,14 @@ function App() {
     <BrowserRouter>
       <div className='App'>
 
-        <Header />
-        <Nav active={active} setActive={setActive} />
+        <Header basket={setCard} />
+        <Nav active={active} setActive={setActive} card={card}/>
         <Routes>
-          <Route path="/" element={<HomePage pizzas={pizzas} />} />
+          <Route path="/" element={<HomePage pizzas={pizzas} handleSend={handleSend}/>} />
         </Routes>
 
         {
-          active ? <Modal_basket modal={active} setModal={setActive} /> : ''
+          active ? <Modal_basket modal={active} setModal={setActive} card={card} /> : ''
         }
       </div>
     </BrowserRouter>

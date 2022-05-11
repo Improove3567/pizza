@@ -27,7 +27,7 @@ function HomePage(props) {
       </div>
       <h1 className={css.main_text}>Пицца</h1>
       <div className={css.pizza_block}>
-        <Main pizzas={props.pizzas} />
+        <Main pizzas={props.pizzas} handleSend={props.handleSend}/>
 
 
       </div>

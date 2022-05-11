@@ -1,0 +1,52 @@
+.order{
+    background-color: white;
+    width: 440px;
+    margin-bottom: 10px;
+
+}
+
+
+.order_content{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 25px;
+
+}
+
+.title{
+    font-weight: 500;
+}
+
+.order_text{
+    margin-left: 25px;
+}
+
+.hr{
+    border:none;
+    background-color: rgb(221, 221, 221);
+    height: 2px;
+    width: 400px;
+}
+
+.counter{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(238, 237, 237);
+    border-radius: 15px;
+    margin-left: 220px;
+}
+
+.price_block{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.order_price{
+    font-weight: 500;
+}
+
+.container{
+   
+}

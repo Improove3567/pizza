@@ -2,7 +2,7 @@ import css from './Nav.module.css'
 import Modal_basket from '../../components/modal_basket/Modal_basket'
 import { useState } from "react";
 
-function Nav({active, setActive}) {
+function Nav({active, setActive, card}) {
     
     return (
         <div className={css.container}>
@@ -19,7 +19,7 @@ function Nav({active, setActive}) {
                 <span className={css.link}>Прямой эфир</span>
             </div>
             <div className="btn">
-                <button className={css.button} onClick={() => setActive(true)}>Корзина</button>
+                <button className={css.button} onClick={() => setActive(true)}>Корзина / {card.length}</button>
             </div>
             
         </div >
