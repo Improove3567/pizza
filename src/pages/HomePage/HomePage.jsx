@@ -10,7 +10,7 @@ import Modal_basket from '../../components/modal_basket/Modal_basket'
 import { useState } from "react";
 
 function HomePage(props) {
-  
+
   return (
     <div className="container">
       <div className={css.wrapper}>

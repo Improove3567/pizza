@@ -1,15 +1,15 @@
-.modal{
+.modal {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     z-index: 999;
-    
+
 }
 
-.modal_content{
+.modal_content {
     padding: 20px;
     border-radius: 12px;
     background-color: rgb(243, 243, 243);
@@ -17,21 +17,18 @@
     width: 400px;
     margin-left: 920px;
     transition: 0.5s ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+
 }
 
-.main_text{
+.main_text {
     font-weight: 500;
 }
 
-.description{
+.description {
     font-weight: 400;
 }
 
-.btn{
+.btn {
     width: 120px;
     height: 40px;
     background-color: rgb(255, 136, 0);
@@ -40,54 +37,87 @@
     border: 0;
 }
 
-.container{
+.container {
     margin-top: 50px;
 }
 
-.order_container{
+.order_container {
     display: flex;
     flex-direction: column;
+
+
 }
 
-.main_price_counter{
+.main_price_counter {
     font-weight: 500;
-    margin-right: 180px;
+    margin-right: 120px;
 
 }
 
-.order_footer{
+.order_footer {
     background-color: white;
-    margin-top:170px
-    
+    position: absolute;
+    bottom: 0;
+
 }
 
-.footer_text{
+.footer_text {
     float: left;
     margin-left: 30px;
+    margin-bottom: 10px;
 }
 
-.footer_price{
+.footer_price {
     float: right;
     margin-right: 30px;
 }
 
-.hr{
-    border:none;
+.hr {
+    border: none;
     background-color: rgb(221, 221, 221);
     height: 2px;
     width: 400px;
 }
 
-.text_container{
+.text_container {
     margin-top: 25px;
 }
 
-.order_btn{
+.order_btn {
     width: 380px;
     height: 40px;
     border-radius: 20px;
     background-color: rgb(255, 136, 0);
     color: rgb(235, 232, 232);
     margin-top: 20px;
-    border:none;
+    border: none;
+    cursor: pointer;
 }
+
+.list{
+    height: 400px;
+    overflow-y: auto;
+}
+
+.list::-webkit-scrollbar { 
+    width: 6px; 
+  } 
+   
+  /* Track */ 
+  .list::-webkit-scrollbar-track { 
+    border-radius: 10px; 
+  } 
+    
+  /* Handle */ 
+  .list::-webkit-scrollbar-thumb { 
+    background: rgb(255, 105, 0);  
+    border-radius: 10px; 
+  } 
+   
+  /* Handle on hover */ 
+  .list::-webkit-scrollbar-thumb:hover { 
+    background: rgb(255, 60, 0);  
+  }
+  
+  
+  

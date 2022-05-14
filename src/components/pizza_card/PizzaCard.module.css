@@ -24,7 +24,7 @@
 }
 
 .footer{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .footer_btn{
@@ -35,4 +35,11 @@
     margin-left: 10px;
     border:0;
     color: white;
+    cursor: pointer;
+
+}
+
+
+.btn_container{
+   
 }

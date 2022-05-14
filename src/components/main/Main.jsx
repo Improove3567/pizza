@@ -8,8 +8,8 @@ const Main = (props) => {
         <div className={css.container}>
             {
                 props.pizzas.map((item) => <PizzaCard
-                handleSend={props.handleSend}
-                 key={props.id}
+                    handleSend={props.handleSend}
+                    key={props.id}
                     {...item}
 
                 />)
