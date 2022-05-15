@@ -4,6 +4,8 @@
     background-color: rgb(255, 255, 255);
     margin-left: 20px;
     margin-top: 50px;
+    position: relative;
+    padding-bottom: 15px;
 
 }
 
@@ -21,10 +23,13 @@
     font-size: 15px;
     font-weight: 400;
     margin-right: 70px;
+    color: rgb(99, 97, 97);
 }
 
 .footer{
-    margin-top: 30px;
+    position: absolute;
+    bottom: 40px;
+    
 }
 
 .footer_btn{
@@ -40,6 +45,8 @@
 }
 
 
-.btn_container{
-   
+.title{
+    margin:0 auto;
+    margin-bottom: 15px;
 }
+

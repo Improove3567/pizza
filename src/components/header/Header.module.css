@@ -27,12 +27,16 @@
     width: 60px;
     height: 30px;
     border-radius: 15px;
-    color: rgb(37, 37, 37);
+    color: rgb(107, 106, 106);
     margin-left: 20px;
     border:0;
+    cursor: pointer;
 }
 .sticky{
     position: relative;
 }
 
+.coins:hover{
+    color: rgb(255, 136, 0);
+}
 

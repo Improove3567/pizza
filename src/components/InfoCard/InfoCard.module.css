@@ -1,5 +1,13 @@
 .img{
     width: 100%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(255, 136, 0);
+    padding: 3px;
+
+}
+
+.container{
+    
 }

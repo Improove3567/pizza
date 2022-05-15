@@ -1,18 +1,18 @@
-import React from 'react';
-import css from './Order_card.module.css'
+import React from "react";
+import css from "./Order_card.module.css";
 
 const OrderCard = () => {
-    return (
+  return (
+    <div className={css.order_card_block}>
+      <img
+        src="https://dodopizza-a.akamaihd.net/static/Img/Products/0bd7315279e34250b85f45c2526c1b65_138x138.jpeg"
+        alt="failed"
+        className={css.order_card_img}
+      ></img>
+      <p className={css.order_card_p}>Додстер</p>
 
-            <div className={css.card_block}>
-                <img 
-                src='https://i2.wp.com/www.thousandhills.com/wp-content/uploads/2013/10/hook-and-ladder-pizza-300x100.jpg?resize=300%2C100'
-                alt='failed'
-                className={css.img}
-                ></img>
-            </div>
-
-    );
-}
+    </div>
+  );
+};
 
 export default OrderCard;

@@ -19,7 +19,7 @@ function Nav({active, setActive, card}) {
                 <span className={css.link}>Прямой эфир</span>
             </div>
             <div className="btn">
-                <button className={css.button} onClick={() => setActive(true)}>Корзина / {card.length}</button>
+                <button className={css.button} onClick={() => setActive(true)}>Корзина | {card.length}</button>
             </div>
             
         </div >
