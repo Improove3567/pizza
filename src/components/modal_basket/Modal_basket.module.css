@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     z-index: 999;
-
+    transition: 0.5s ease-in-out;
 }
 
 .modal_content {
@@ -16,7 +16,7 @@
     height: 100%;
     width: 400px;
     margin-left: 920px;
-    transition: 0.5s ease-in-out;
+    
 
 }
 
@@ -120,4 +120,6 @@
   }
   
   
-  
+  .modal_active{
+
+  }

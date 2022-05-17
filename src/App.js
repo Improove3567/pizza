@@ -7,6 +7,8 @@ import Nav from "./components/navbar/Nav";
 import Modal_basket from "./components/modal_basket/Modal_basket";
 import OrderModal from "./components/orderModal/OrderModal";
 import ModalConfirmation from "./components/ModalConfirmation/ModalConfirmation";
+import Admin from './pages/Admin/Admin'
+import DashBoard from "./pages/Dashboard/DashBoard";
 
 const baseUrl = "https://62697c31f2c0cdabac0f400a.mockapi.io/";
 function App() {
@@ -59,6 +61,8 @@ function App() {
             path="/"
             element={<HomePage pizzas={pizzas} handleSend={handleSend} />}
           />
+          <Route path='/admin' element={<Admin />} />
+          <Route path='/dashboard' element={<DashBoard pizzas={pizzas}/>} />
         </Routes>
 
         {active ? (
