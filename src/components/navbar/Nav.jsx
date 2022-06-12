@@ -1,9 +1,8 @@
 import css from './Nav.module.css'
-import Modal_basket from '../../components/modal_basket/Modal_basket'
-import { useState } from "react";
+import { useSelector } from 'react-redux';
 
 function Nav({active, setActive, card}) {
-    
+    const basket = useSelector((state) => state.basket.data)
     return (
         <div className={css.container}>
             <div className={css.nav_block}>
@@ -19,7 +18,7 @@ function Nav({active, setActive, card}) {
                 <span className={css.link}>Прямой эфир</span>
             </div>
             <div className="btn">
-                <button className={css.button} onClick={() => setActive(true)}>Корзина | {card.length}</button>
+                <button className={css.button} onClick={() => setActive(true) }>Корзина | {basket.length}</button>
             </div>
             
         </div >

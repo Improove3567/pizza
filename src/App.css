@@ -116,3 +116,14 @@
     z-index: 999;
     
 }
+
+.water_text{
+  color: rgb(44, 44, 44);
+  font-weight: 500;
+  margin-left: 480px;
+  opacity: 0.5;
+}
+
+.test-box{
+  margin: 200px;
+}

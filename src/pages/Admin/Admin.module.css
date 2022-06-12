@@ -1,6 +1,6 @@
 .container{
     width: 80%;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 
@@ -47,4 +47,8 @@
     color: white;
     border: 0;
     cursor: pointer;
+}
+
+.main_container{
+    margin-left: 400px;
 }

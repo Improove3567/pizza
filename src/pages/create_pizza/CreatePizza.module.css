@@ -1,0 +1,63 @@
+.main_container{
+    margin: 0 auto;   
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(255, 136, 0);
+    outline: rgb(255, 136, 0);
+}
+
+.span{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.inputs_container{
+    margin-top: 30px;
+}
+
+.price_input_container{
+    margin-left: 42px;
+    margin-top: 30px;
+}
+
+.add_btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(255, 115, 0);
+    border:0;
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.close{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 136, 0);
+    margin-right: 30px;
+}
+
+.addPizzaBtn{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 115, 0);
+    border:0;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.main_text{
+    margin-left: 50px;
+}

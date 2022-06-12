@@ -1,6 +1,6 @@
 .pizza_block {
     width: 240px;
-    height: 400px;
+    height: 440px;
     background-color: rgb(255, 255, 255);
     margin-left: 20px;
     margin-top: 50px;
@@ -50,3 +50,37 @@
     margin-bottom: 15px;
 }
 
+.dashboard_btn_change{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 115, 0);
+    margin-left: 10px;
+    border:0;
+    color: white;
+    cursor: pointer;
+}
+
+.dashboard_btn_delete{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 115, 0);
+    margin-left: 10px;
+    border:0;
+    color: white;
+    cursor: pointer;
+}
+
+.dashboard_btns{
+    margin-top: 10px;
+
+}
+
+.dashboard_btn_delete:hover{
+    background-color: rgb(255, 64, 0);
+}
+
+.dashboard_btn_change:hover{
+    background-color: rgb(255, 160, 0);
+}

@@ -5,11 +5,13 @@ import BasketOrder from "../basketOrder/basketOrder";
 import OrderModal from "../orderModal/OrderModal";
 import Order from "../order/Order";
 import { useState } from "react";
+import { useSelector } from "react-redux";
 
-const ModalBasket = ({ modal, setModal, card, removeCardBasket, price }) => {
+const ModalBasket = ({ modal, setModal,  }) => {
   const [join, setJoin] = useState(false);
+  const card = useSelector((state) => state.basket.data)
+  console.log(card);
   const totalBalance = card.reduce((acc, item) => acc + Number(item.price), 0);
-
   return (
     <div className={css.modal} onClick={() => setModal(false)}>
       <div className={css.modal_content} onClick={(e) => e.stopPropagation()}>
@@ -26,7 +28,6 @@ const ModalBasket = ({ modal, setModal, card, removeCardBasket, price }) => {
                   price={el.price}
                   description={el.description}
                   id={el.id}
-                  removeCardBasket={removeCardBasket}
                 />
               ))}
             </div>

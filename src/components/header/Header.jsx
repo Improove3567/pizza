@@ -1,5 +1,5 @@
 import css from './Header.module.css'
-import Nav from '../navbar/Nav.jsx'
+// import { Link, Navigate, useNavigate } from 'react-router-dom';
 
 function Header() {
     return (
@@ -13,7 +13,7 @@ function Header() {
                     <h4 className={css.delivery}>0 (551) 550-550</h4>
                     <div className={css.buttons}>
                         <span className={css.coins}>Додокоины</span>
-                        <button className={css.login_btn}>Войти</button>
+                        <button className={css.login_btn} >Войти</button>
                     </div>
                 </div>
                 {/* <Nav /> */}
